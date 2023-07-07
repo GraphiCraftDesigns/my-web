@@ -15,6 +15,7 @@ font-weight: 700;
 color: white;
 border: 0;
 padding: 18px 35px 19px 36px;
+
 }
 .section-title{
 text-align: center;
@@ -48,6 +49,7 @@ nav>ul{
 }
 nav li{
     list-style: none;
+
     margin-right: 50px;
 }
 nav a{
@@ -175,4 +177,20 @@ font-weight: 700;
     background:#FFF8F3;
     padding: 130px 230px;
     margin-top: 100px;
+}
+
+.footer-item{
+    width:100%;
+}
+#contact input[type="text"],#contact input[type="email"],textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+background:#FFF;
+border: 0px;
+}
+.social-links a{
+    margin-right: 25px;
 }
